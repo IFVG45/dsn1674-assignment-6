@@ -18,10 +18,38 @@ header{
   positon:relative;
   overflow:hidden;
   background-color:#2c3950;
+  font-family: 'Contrail-One', Cursive;
 
 
 }
 
+.brain {
+  position:relative;
+  bottom:114px;
+  left:78px;
+  width:40%;
+  transition: all 250ms linear;
+
+}
+
+.head-left{
+  position:relative;
+  bottom: 266px;
+  right: 50px;
+  transition: all 250ms linear;
+
+}
+
+.head-right{
+  position:relative;
+  bottom: 477px;
+  left: 119px;
+  transition: all 250ms linear;
+}
+
+.body{
+  width:100%;
+}
 h1{
   position:absolute;
   bottom:-2em;
@@ -29,13 +57,13 @@ h1{
   color:#fff;
   text-align: center;
   width:100%;
-  transition:all 250ms linear;
-  background-color: #2c3950
+  background-color: #1a2230;
+
 
 }
 
 
- header:hover h1{
+ header:hover h1 {
    bottom:1em;
 
  }
