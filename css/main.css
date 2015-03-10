@@ -1,5 +1,6 @@
 html{
      box-sizing:border-box;
+     font-family: 'Contrail-One', Cursive;
    }
 
    *,*::before, *::after {
@@ -7,44 +8,52 @@ html{
      box-sizing: inherit;
    }
 
-
+body {
+  margin: 0;
+}
 
 img{
-  witdh:100%;
+  width:100%;
 
 }
 
+div {
+  width: 320px;
+  position: relative;
+  margin: 0 auto;
+}
+
 header{
-  positon:relative;
-  overflow:hidden;
   background-color:#2c3950;
-  font-family: 'Contrail-One', Cursive;
   padding: 3em 0 0 0;
   color:white;
 
 }
 
 .brain {
-  position:relative;
-  bottom:117px;
-  left:80px;
-  width:40%;
+  width: 46px;
+  position:absolute;
+  bottom:145px;
+  left:135px;
+  top: -3px;
   transition: all 250ms linear;
 
 }
 
 .head-left{
-  position:relative;
-  bottom: 136px;
-  right: 50px;
+  width: 125px;
+  position:absolute;
+  top: -40px;
+  left: 35px;
   transition: all 250ms linear;
 
 }
 
 .head-right{
-  position:relative;
-  bottom: 176px;
-  left: 109px;
+  width: 125px;
+  position:absolute;
+  top: -40px;
+  right: 36px;
   transition: all 250ms linear;
 }
 
@@ -52,8 +61,6 @@ header{
   width:100%;
 }
 h1{
-  position:absolute;
-  bottom:-2em;
   margin:0;
   color:#fff;
   text-align: center;
